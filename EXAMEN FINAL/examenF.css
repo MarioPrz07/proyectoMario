@@ -1,0 +1,240 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #222;
+    color: white;
+  }
+  
+  header {
+    background-color: #333;
+    padding: 20px 0;
+  }
+  
+  .header-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .header-content img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .header-content h1 {
+    margin: 0;
+    color: white;
+    font-size: 24px;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav ul li {
+    margin-right: 20px;
+  }
+  
+  footer {
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+  }
+  
+  .footer-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .social-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .social-links a {
+    margin: 0 10px;
+    color: white;
+    font-size: 24px;
+  }
+  
+  .gallery {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid white;
+    overflow: hidden;
+    width: 80%;
+    margin: 20px auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .slider {
+    width: 35%;
+    height: auto;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+  }
+  
+  .slider:hover {
+    transform: scale(1.05);
+  }
+  
+  .sub-heading {
+    font-family: 'Arial', sans-serif;
+    font-size: 24px;
+    margin-top: 20px;
+  }
+  
+  header {
+    background-color: #333;
+    padding: 20px 0;
+  }
+  
+  header h1 {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 28px;
+    color: white;
+    text-transform: uppercase;
+  }
+  
+  nav ul li a {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    color: white;
+    text-decoration: none;
+  }
+  
+  .sub-heading {
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    margin-top: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  
+  nav ul li a {
+    padding: 5px 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  nav ul li a:hover {
+    background-color: #555;
+  }
+  
+  nav ul li:not(:last-child) {
+    margin-right: 20px;
+  }
+  
+  .mission-container {
+    display: none;
+    padding: 20px;
+    background-color: #b82222;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+  }
+  
+  .mission-container h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 15px;
+  }
+  
+  .mission-container p {
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+    line-height: 1.6;
+    text-align: justify;
+    margin-bottom: 20px;
+  }
+  
+  .mission-container img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  ul {
+    columns: 2; /* Establece el número de columnas */
+    list-style-type: none; /* Quita los números o viñetas predeterminados de la lista */
+  }
+  
+  li {
+    display: inline-block; /* Hace que los elementos de la lista sean bloques en línea */
+    margin-right: 20px; /* Agrega un margen entre los elementos */
+  }
+  
+
+#mas_productos {
+    background-color: #1e90ff; /* Fondo azul fuerte */
+    color: white;
+    padding: 40px;
+    border-radius: 10px;
+    margin-top: 40px;
+  }
+  
+  #mas_productos h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+  }
+  
+  #mas_productos p {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 15px;
+  }
+  
+  #mas_productos p:last-child {
+    margin-bottom: 0;
+  }
+  
+
+  /* Estilo para la sección de "Más Productos" */
+#mas_productos {
+    padding: 20px;
+    background-color: #f5f5f5;
+    border-radius: 10px;
+    margin-top: 20px;
+  }
+  
+  #mas_productos h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #333;
+  }
+  
+  #mas_productos p {
+    font-size: 18px;
+    margin-bottom: 15px;
+    line-height: 1.6;
+    color: #555;
+  }
+  
+  #mas_productos img {
+    display: inline-block;
+    margin: 10px;
+    border-radius: 5px;
+    transition: transform 0.3s ease;
+  }
+  
+  #mas_productos img:hover {
+    transform: scale(1.1);
+  }
+  
